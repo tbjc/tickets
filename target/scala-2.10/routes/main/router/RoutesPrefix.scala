@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Wezkell Digital/Desktop/proyecto/conf/routes
-// @DATE:Wed Sep 09 12:23:03 CDT 2015
+// @SOURCE:C:/Proyectos/play_framework/tickets/conf/routes
+// @DATE:Thu Sep 10 11:00:45 CDT 2015
 
 
 package router {

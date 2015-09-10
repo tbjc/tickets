@@ -9,8 +9,20 @@
 		extra-sbtVersion="0.13"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150910103526"/>
+		date="20150910105912"/>
 	<dependencies>
+		<module organisation="com.github.mpeltonen" name="sbt-idea">
+			<revision name="1.6.0" status="release" pubdate="20140208131446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://your.project.url" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="99">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3596" time="0" location="C:\Users\Cristhian\.ivy2\cache\scala_2.10\sbt_0.13\com.github.mpeltonen\sbt-idea\ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom"/>
+				<caller organisation="default" name="tickets-build" conf="compile, runtime-internal, runtime, optional" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="sbt-idea" type="jar" ext="jar" status="no" details="" size="367570" time="0" location="C:\Users\Cristhian\.ivy2\cache\scala_2.10\sbt_0.13\com.github.mpeltonen\sbt-idea\jars\sbt-idea-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-play-ebean">
 			<revision name="1.0.0" status="release" pubdate="20150526223843" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ebean" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="94">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
@@ -830,11 +842,11 @@
 			</revision>
 		</module>
 		<module organisation="org.sonatype.sisu" name="sisu-guice">
-			<revision name="3.1.0" status="release" pubdate="20110902190108" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
-				<metadata-artifact status="successful" details="" size="10149" time="241" location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.sisu\sisu-guice\ivy-3.1.0.xml" searched="true" original-local-location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.sisu\sisu-guice\ivy-3.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom"/>
+			<revision name="3.1.0" status="release" pubdate="20110902190108" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<metadata-artifact status="no" details="" size="4755" time="0" location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.sisu\sisu-guice\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom"/>
 				<caller organisation="org.eclipse.sisu" name="org.eclipse.sisu.plexus" conf="compile, runtime" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="0.0.0.M5"/>
 				<artifacts>
-					<artifact name="sisu-guice" type="jar" ext="jar" status="successful" details="" size="585485" time="900" location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.sisu\sisu-guice\jars\sisu-guice-3.1.0.jar">
+					<artifact name="sisu-guice" type="jar" ext="jar" status="no" details="" size="585485" time="0" location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.sisu\sisu-guice\jars\sisu-guice-3.1.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -936,11 +948,11 @@
 			</revision>
 		</module>
 		<module organisation="org.sonatype.plexus" name="plexus-cipher">
-			<revision name="1.4" status="release" pubdate="20090429144002" resolver="public" artresolver="public" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
-				<metadata-artifact status="successful" details="" size="2065" time="235" location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.plexus\plexus-cipher\ivy-1.4.xml" searched="true" original-local-location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.plexus\plexus-cipher\ivy-1.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom"/>
+			<revision name="1.4" status="release" pubdate="20090429144002" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<metadata-artifact status="no" details="" size="5845" time="0" location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.plexus\plexus-cipher\ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom"/>
 				<caller organisation="org.sonatype.plexus" name="plexus-sec-dispatcher" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.3"/>
 				<artifacts>
-					<artifact name="plexus-cipher" type="jar" ext="jar" status="successful" details="" size="13494" time="1050" location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.plexus\plexus-cipher\jars\plexus-cipher-1.4.jar">
+					<artifact name="plexus-cipher" type="jar" ext="jar" status="no" details="" size="13494" time="0" location="C:\Users\Cristhian\.ivy2\cache\org.sonatype.plexus\plexus-cipher\jars\plexus-cipher-1.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar"/>
 					</artifact>
 				</artifacts>
@@ -1297,12 +1309,19 @@
 		<module organisation="commons-io" name="commons-io">
 			<revision name="2.4" status="release" pubdate="20150225085129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
 				<metadata-artifact status="no" details="" size="8455" time="0" location="C:\Users\Cristhian\.ivy2\cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="true" origin-location="C:\Proyectos\Activator\typesafe-activator-1.3.5\activator-dist-1.3.5\repository\commons-io\commons-io\2.4\ivys\ivy.xml"/>
+				<caller organisation="com.github.mpeltonen" name="sbt-idea" conf="default, compile, runtime, master" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.6.0"/>
 				<caller organisation="org.vafer" name="jdeb" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.3"/>
 				<caller organisation="com.typesafe.play" name="routes-compiler_2.10" conf="default, compile, runtime, master" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="2.4.0"/>
 				<artifacts>
 					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="C:\Proyectos\Activator\typesafe-activator-1.3.5\activator-dist-1.3.5\repository\commons-io\commons-io\2.4\jars\commons-io.jar">
 						<origin-location is-local="true" location="C:\Proyectos\Activator\typesafe-activator-1.3.5\activator-dist-1.3.5\repository\commons-io\commons-io\2.4\jars\commons-io.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.0.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.4"/>
+				<caller organisation="com.github.mpeltonen" name="sbt-idea" conf="default, compile, runtime, master" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.6.0"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>

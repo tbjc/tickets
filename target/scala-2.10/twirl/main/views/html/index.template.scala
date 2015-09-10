@@ -38,9 +38,8 @@ Seq[Any](format.raw/*1.5*/("""<!-- BREADCRUMB -->
     
     
     <div class="panel">
-        
- 
-         
+
+
         
             
         
@@ -51,14 +50,14 @@ Seq[Any](format.raw/*1.5*/("""<!-- BREADCRUMB -->
                     <div class="six columns">
                          <div style="text-align:center;">
                             <div id="LogoMain" style="padding:20px; margin:15px auto;">
-                                 <img src=""""),_display_(/*23.45*/routes/*23.51*/.Assets.versioned("images/Logo.png")),format.raw/*23.87*/("""" alt="" style="max-width:240px; width:100%; height:auto; ">
+                                 <img src=""""),_display_(/*22.45*/routes/*22.51*/.Assets.versioned("images/Logo.png")),format.raw/*22.87*/("""" alt="" style="max-width:240px; width:100%; height:auto; ">
                             </div>
                             </div>
                     </div>
                     <div class="six columns">
                          <div style="text-align:center;">
                         <div id="LogoMain" style="padding:20px; margin:60px auto; vertical-align:middle;">
-                            <img src=""""),_display_(/*30.40*/routes/*30.46*/.Assets.versioned("images/Logo.png")),format.raw/*30.82*/("""" alt="" style="max-width:340px; width:100%; height:auto; ">
+                            <img src=""""),_display_(/*29.40*/routes/*29.46*/.Assets.versioned("images/Logo.png")),format.raw/*29.82*/("""" alt="" style="max-width:340px; width:100%; height:auto; ">
                         </div>
                         </div>
                     </div>
@@ -76,7 +75,7 @@ Seq[Any](format.raw/*1.5*/("""<!-- BREADCRUMB -->
     <hr style="border:1px solid #900">
     </td>
     <td width="20%" style="border:none;">
-    <img src=""""),_display_(/*48.16*/routes/*48.22*/.Assets.versioned("images/Logo.png")),format.raw/*48.58*/("""" alt="">
+    <img src=""""),_display_(/*47.16*/routes/*47.22*/.Assets.versioned("images/Logo.png")),format.raw/*47.58*/("""" alt="">
     </td>
     <td width="40%" style="border:none;">
     <hr style="border:1px solid #900">
@@ -115,11 +114,11 @@ Seq[Any](format.raw/*1.5*/("""<!-- BREADCRUMB -->
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Wed Sep 09 10:14:45 CDT 2015
-                  SOURCE: C:/Users/Wezkell Digital/Desktop/proyecto/app/views/index.scala.html
-                  HASH: fdc00bae5c02f8fb182468b3d9ecb8c573d35c81
-                  MATRIX: 827->4|1493->643|1508->649|1565->685|2000->1093|2015->1099|2072->1135|2540->1576|2555->1582|2612->1618
-                  LINES: 32->1|54->23|54->23|54->23|61->30|61->30|61->30|79->48|79->48|79->48
+                  DATE: Thu Sep 10 11:00:46 CDT 2015
+                  SOURCE: C:/Proyectos/play_framework/tickets/app/views/index.scala.html
+                  HASH: 38d22e990bba16c1507cb53109e0f10c91c94cd6
+                  MATRIX: 827->4|1495->645|1510->651|1567->687|2009->1102|2024->1108|2081->1144|2567->1603|2582->1609|2639->1645
+                  LINES: 32->1|53->22|53->22|53->22|60->29|60->29|60->29|78->47|78->47|78->47
                   -- GENERATED --
               */
           

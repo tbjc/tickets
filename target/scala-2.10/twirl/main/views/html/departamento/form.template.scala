@@ -60,10 +60,10 @@ Seq[Any](format.raw/*1.34*/("""
 object form extends form_Scope0.form
               /*
                   -- GENERATED --
-                  DATE: Mon Sep 07 10:37:15 CDT 2015
-                  SOURCE: C:/Users/Wezkell Digital/Desktop/proyecto/app/views/departamento/form.scala.html
-                  HASH: 24199a08a446724aaa1af4f3959b9f8cdc6af5e7
-                  MATRIX: 763->1|890->33|917->35|955->65|993->66|1021->68|1106->127|1132->133|1165->137|1192->139|1231->170|1269->171|1297->173|1383->233|1409->239|1442->243|1471->246|1506->260|1534->261
+                  DATE: Thu Sep 10 11:00:47 CDT 2015
+                  SOURCE: C:/Proyectos/play_framework/tickets/app/views/departamento/form.scala.html
+                  HASH: dcd01e8a31bfdfef994fff68f8818eb40b5d90e0
+                  MATRIX: 763->1|890->33|918->36|956->66|994->67|1023->70|1109->130|1135->136|1169->141|1197->144|1236->175|1274->176|1303->179|1390->240|1416->246|1450->251|1480->255|1515->269|1544->271
                   LINES: 27->1|32->1|33->2|33->2|33->2|34->3|35->4|35->4|36->5|37->6|37->6|37->6|38->7|39->8|39->8|40->9|41->10|41->10|42->11
                   -- GENERATED --
               */
