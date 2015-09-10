@@ -36,6 +36,7 @@ public class Application extends Controller {
 
     public static Result inicio() {
         return ok(views.html.loginLayout.render(views.html.login.render(form(Login.class))));
+        //cambio...
     }
 
     public static Result entrar() {

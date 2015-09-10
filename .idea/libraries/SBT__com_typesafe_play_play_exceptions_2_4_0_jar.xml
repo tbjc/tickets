@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.typesafe.play:play-exceptions:2.4.0:jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Activator/typesafe-activator-1.3.5/activator-dist-1.3.5/repository/com.typesafe.play/play-exceptions/2.4.0/jars/play-exceptions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
