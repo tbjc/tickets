@@ -1,0 +1,30 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.inicio()
+
+GET     /usuario                           controllers.Application.index()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+POST 	/entrar						controllers.Application.entrar()
+GET 	/distrito/index 			controllers.Distritos.index()
+GET 	/distrito/list 				controllers.Distritos.list()
+GET 	/distrito/show/:id 			controllers.Distritos.show(id:Long)
+GET 	/empleado/index 			controllers.Empleados.index()
+GET 	/empleado/list 				controllers.Empleados.list()
+GET 	/empleado/show/:id 			controllers.Empleados.show(id:Long)
+GET 	/departamento/index 			controllers.Departamentos.index()
+GET 	/departamento/list 				controllers.Departamentos.list()
+GET 	/departamento/show/:id 			controllers.Departamentos.show(id:Long)
+POST 	/distrito  	 			    controllers.Distritos.create()
+POST 	/empleado  	 			    controllers.Empleados.create()
+POST 	/departamento  	 			    controllers.Departamentos.create()
+PUT 	/distrito/:id  	 			controllers.Distritos.update(id:Long)
+PUT 	/empleado/:id  	 			controllers.Empleados.update(id:Long)
+PUT 	/departamento/:id  	 			controllers.Departamentos.update(id:Long)
+DELETE  /distrito/:id               controllers.Distritos.delete(id: Long)
+DELETE  /empleado/:id               controllers.Empleados.delete(id: Long)
+DELETE  /departamento/:id               controllers.Departamentos.delete(id: Long)

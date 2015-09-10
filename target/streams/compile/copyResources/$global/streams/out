@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Wezkell Digital\Desktop\proyecto\conf\application.conf,C:\Users\Wezkell Digital\Desktop\proyecto\target\scala-2.10\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Wezkell Digital\Desktop\proyecto\conf\evolutions,C:\Users\Wezkell Digital\Desktop\proyecto\target\scala-2.10\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Wezkell Digital\Desktop\proyecto\conf\routes,C:\Users\Wezkell Digital\Desktop\proyecto\target\scala-2.10\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Wezkell Digital\Desktop\proyecto\conf\evolutions\default,C:\Users\Wezkell Digital\Desktop\proyecto\target\scala-2.10\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Wezkell Digital\Desktop\proyecto\conf\evolutions\default\1.sql,C:\Users\Wezkell Digital\Desktop\proyecto\target\scala-2.10\classes\evolutions\default\1.sql)[0m

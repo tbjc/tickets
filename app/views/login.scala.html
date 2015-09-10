@@ -1,0 +1,86 @@
+@(loginForm: Form[Application.Login])
+
+	<div class="row">
+		<div class="six centered columns text-center">
+			<h1 class="six centered columns logo" style="margin-top:20%;">
+				<a href="#">
+					<img src="@routes.Assets.versioned("images/Logo.png")">
+				</a>
+			</h1>
+		</div>
+	</div>			
+	<div class="row">
+		<div class="six centered columns text-center">
+			<div class="panel">
+				<h2>Iniciar sesión</h2>
+				
+				<form action="@routes.Application.entrar()" method="POST" class="text-left" id="loginForm">
+				@*CSRF.formField*@
+					<div class="field">
+						<label for="usuario">Usuario: </label>
+					  <input class="input usuario" id="nombreUsuario" name="nombreUsuario" type="text" placeholder="Usuario" value="@loginForm("nombreUsuario").value" />
+					</div>
+					<div class="field">
+						<label for="pasword">Contraseña: </label>
+					  <input class="input contrasenia" id="password" name="password" type="password" placeholder="Contraseña" value="@loginForm("password").value" />
+					</div>
+					
+					@if(loginForm.hasGlobalErrors){
+			             @for(validationError <- loginForm.globalErrors){  
+			                <span class="row danger label errorLabel"><i class="icon ion-alert-circled"></i> @validationError.message</span>
+			             }
+			          }
+					<div class="medium secondary btn btnSubmit">
+					  <a href="#">Iniciar sesión</a>
+					</div>
+					<div class="medium default btn btnClear">
+					  <a href="#">Limpiar</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="six centered columns text-center">
+			<p class="size-12">Instituto de Atención a Víctimas del Delito - Todos los derechos reservados  <a href="http:evomatik.com">Evomatik Software</a></p>
+		</div>
+	</div>
+
+	<script>
+	$(document).ready(function() {
+		if ($(".usuario").val() == "") {
+			$(".usuario").focus();
+		}else{
+			$(".contrasenia").focus();
+		}	
+		$('#loginForm').keypress(function(e){   
+		    if(e == 13){
+		      $('#loginForm').submit();
+		      return false;
+		    }
+		  });
+
+		  $('.contrasenia').keypress(function(e){
+		    if(e.which == 13){
+		      $('#loginForm').submit();
+		    }
+		  });
+
+		  $('#loginForm').submit(function(event) {
+		  	/* Act on the event */
+		  	// alert("Hola");
+		  	return;
+		  });
+
+		  $(document).on('click', '.btnSubmit', function(event) {
+		  	event.preventDefault();
+		  	/* Act on the event */
+		  	$('#loginForm').submit();
+		  });
+
+		  $(document).on('click', '.btnClear', function(event) {
+		  	event.preventDefault();
+		  	/* Act on the event */
+		  	$(".errorLabel").remove();
+		  	$('#loginForm').resetear();
+		  });
+	});
+	</script>
