@@ -15,12 +15,13 @@ import java.util.*;
 import play.db.*;
 import com.avaje.ebean.*;
 
-import play.mvc.Http.RequestBody;
+import play.mvc.Http.RequestBody;//cambio realizado
 
 public class Application extends Controller {
 
     public static class Login {
       public String nombreUsuario;
+      public String var;
       public String password;
         public String validate() {
             if (Empleado.authenticate(nombreUsuario, password) == null) {
