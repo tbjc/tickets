@@ -1,299 +1,239 @@
-
+@(title: String)(content: Html)
+@import be.objectify.deadbolt.java.views.html._
+@import be.objectify.deadbolt.core.utils.TemplateUtils._
 
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="es"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="es"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="es"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js ie9" lang="es"> <![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js ie6 oldie" lang="es"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 oldie" lang="es"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 oldie" lang="es"> <![endif]-->
+<!--[if IE 9]>
+<html class="no-js ie9" lang="es"> <![endif]-->
 <!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
-			 More info: h5bp.com/b/378 -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+             More info: h5bp.com/b/378 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title></title>
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="humans.txt">
+    <title>@title</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content="humans.txt">
 
-	<link rel="shortcut icon" href="@routes.Assets.versioned("images/favicon.ico")" type="image/x-icon" />
+    <link rel="shortcut icon" href=@routes.Assets.versioned("img/favicon.ico") type="image/x-icon"/>
 
-	<!-- Facebook Metadata /-->
-	<meta property="fb:page_id" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:description" content=""/>
-	<meta property="og:title" content=""/>
+    <!-- Facebook Metadata /-->
+    <meta property="fb:page_id" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:title" content=""/>
 
-	<!-- Google+ Metadata /-->
-	<meta itemprop="name" content="">
-	<meta itemprop="description" content="">
-	<meta itemprop="image" content="">
+    <!-- Google+ Metadata /-->
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-	<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
-		 However, there is a blank style.css in the css directory should you prefer -->
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/gumby.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/style.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/rev.css")" media="screen">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/sidebar.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/icons.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/sweetalert.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/jquery.dataTables.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/dataTables.responsive.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/style-tabs.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/classic.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/classic.date.css")">
-	<link rel="stylesheet" href="@routes.Assets.versioned("css/token-input.css")">
-	<!--<link href="@routes.Assets.versioned("css/ionicons.css")" rel="stylesheet" type="text/css" />-->
-	<link href="@routes.Assets.versioned("css/ionicons.css")" rel="stylesheet" type="text/css" />
-	<link href="@routes.Assets.versioned("css/gridstack.min.css")" rel="stylesheet" type="text/css" />
+    <!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+         However, there is a blank style.css in the css directory should you prefer -->
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/gumby.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/style.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/rev.css") media="screen">
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/sidebar.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/icons.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/sweetalert.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/jquery.dataTables.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/dataTables.responsive.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/style-tabs.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/classic.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/classic.date.css")>
+    <link rel="stylesheet" href=@routes.Assets.versioned("css/token-input.css")>
+    <link href=@routes.Assets.versioned("css/ionicons.css") rel="stylesheet" type="text/css"/>
+    <link href=@routes.Assets.versioned("css/gridstack.min.css") rel="stylesheet" type="text/css"/>
 
-	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
-	<!-- 2.0 for modern browsers, 1.10 for .oldie -->
-	<script type="text/javascript">
+    <!-- Grab Google CDN's jQuery, fall back to local if offline -->
+    <!-- 2.0 for modern browsers, 1.10 for .oldie -->
+    <script type="text/javascript">
 	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
 	if(!oldieCheck) {
-	document.write('<script src="@routes.Assets.versioned("js/jquery-2.0.2.min.js")"><\/script>');
+	document.write('<script src=@routes.Assets.versioned("js/jquery-2.0.2.min.js")><\/script>');
 	} else {
 	document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
 	}
-	</script>
-	<script>
+
+    </script>
+    <script>
 	if(!window.jQuery) {
 	if(!oldieCheck) {
-	  document.write('<script src="@routes.Assets.versioned("js/jquery-2.1.3.min.js")"><\/script>');
+	  document.write('<script src=@routes.Assets.versioned("js/jquery-2.1.3.min.js")><\/script>');
 	} else {
-	  document.write('<script src="@routes.Assets.versioned("js/libs/jquery-1.10.1.min.js")"><\/script>');
+	  document.write('<script src=@routes.Assets.versioned("js/libs/jquery-1.10.1.min.js")><\/script>');
 	}
 	}
-	</script>
 
-	<script src="@routes.Assets.versioned("js/jquery-ui.min.js")"></script>
-	<script src="@routes.Assets.versioned("js/libs/modernizr-2.6.2.min.js")"></script>
-	<script src="@routes.Assets.versioned("js/jquery.dataTables.min.js")"></script>
-	<script src="@routes.Assets.versioned("js/dataTables.responsive.js")"></script>
-	<script src="@routes.Assets.versioned("javascripts/application.js")"></script>
-	<script>
+    </script>
+
+    <script src=@routes.Assets.versioned("js/jquery-ui.min.js")></script>
+    <script src=@routes.Assets.versioned("js/libs/modernizr-2.6.2.min.js")></script>
+    <script src=@routes.Assets.versioned("js/jquery.dataTables.min.js")></script>
+    <script src=@routes.Assets.versioned("js/dataTables.responsive.js")></script>
+    <script src=@routes.Assets.versioned("javascripts/application.js")></script>
+    <script>
 		var config = {
 			environment: '@play.Play.application().configuration().getString("Evomatik.Logger.js")',
 		}
-	</script>
-	<script src="@routes.Assets.versioned("js/utilerias.js")"></script>
+
+    </script>
+    <script src=@routes.Assets.versioned("js/utilerias.js")></script>
 </head>
 
 <style>
-	.btn,.drawer { margin-bottom:10px; }
-	.drawer { text-align: center; }
-	h1.lead { border-bottom: 1px dotted #ccc; margin-bottom: 30px; }
-	h4.lead { margin-bottom:10px; }
-	#icon_map ul li { font-size: 16px; }
-	.smallify { font-size: 13px; }
-	.modal h2, .modal .btn { margin: 5% 0 20px; }
-	.ttip.example { float: left; background: #eee; border: 1px dotted #ccc; padding: 20px; }
+    .btn,.drawer { margin-bottom:10px; }
+    .drawer { text-align: center; }
+    h1.lead { border-bottom: 1px dotted #ccc; margin-bottom: 30px; }
+    h4.lead { margin-bottom:10px; }
+    #icon_map ul li { font-size: 16px; }
+    .smallify { font-size: 13px; }
+    .modal h2, .modal .btn { margin: 5% 0 20px; }
+    .ttip.example { float: left; background: #eee; border: 1px dotted #ccc; padding: 20px; }
 </style>
 
 
 <body>
 <div id="st-container" class="st-container">
-	<nav class="st-menu st-effect-4" id="menu-4">
-	<a href="/"><h2 class="ion-ios-home">&emsp;Menú</h2></a>
+    <nav class="st-menu st-effect-4" id="menu-4">
+        <a href="/"><h2 class="ion-ios-home">&emsp;Menú</h2></a>
 
-		<ul id="contentScroll">
-			
-			<li class="has-drop">
-				<a class="icon icon-world" href="#">Modulos <i class="icon ion-ios-arrow-forward" /></i></a>
-				<ul class="drop">
- 					<li><a href="@routes.Departamentos.index">Paises</a></li>
-				   	<li><a href="@routes.Empleados.index">Estados</a></li>
-				   	<li><a href="@routes.Distritos.index()">Distritos</a></li>
-				</ul>
-			</li>
-			
-<!-- 
-           
-            
-			@*restrict(la(as("operador"), as("administrador"), as("ejecutivo"), as("supervisor"))) {*@
-				<!-- <li class="has-drop">
-					<a class="icon icon-lab" href="#">Investigaciones <i class="icon ion-ios-arrow-forward" /></i></a>
-					<ul class="drop">
-						<li><a class="icon ion-ios-medical" href="#">En Trámite</a></li>
-						<li><a class="icon ion-ios-infinite" href="#">Concluídos</a></li>
-						<li><a class="icon icon-data" href="#">Concluidos Por Convenio</a></li>
-						<li><a class="icon icon-data" href="#">En Convenio/ Conciliación</a></li>
-						<li><a class="icon icon-data" href="#">Por Atender</a></li>
-						<li><a class="icon icon-data" href="#">Sspendido</a></li>
-					</ul>
-				</li> -->
+        <ul id="contentScroll">
 
-				<!-- <li class="has-drop">
-					<a class="icon icon-lab" href="#">Atención Temprana (Atención Ciudadana) <i class="icon ion-ios-arrow-forward" /></i></a>
-					<ul class="drop">
-						<li><a class="icon ion-ios-medical" href="#">Solicitud</a></li>
-						<li><a class="icon ion-ios-infinite" href="#">Orientación</a></li>
-						<li><a class="icon icon-data" href="#">Expedición de Constancias</a></li>
-						<li><a class="icon icon-data" href="#">Crear Denuncia</a></li>
-						<li><a class="icon icon-data" href="#">Mediación</a></li>
-					</ul>
-				</li>
-				<li><a class="icon icon-photo" href="#">Atención Integral</a></li> -->
-			@* }*@
-			@* @restrict(la(as("supervisor"))) {*@
-				<!-- <li><a class="icon icon-data" href="#">Apertura de la carpeta de investigación</a></li> -->
-			@* }
-			@* @restrict(la(as("administrador"))) {*@
-				<li class="has-drop">
-					<a class="icon icon-data" href="#">Policias de Investigación <i class="icon ion-ios-arrow-forward" /></i></a>
-					<ul class="drop">
-				      <li>
-				      	<a class="icon icon-data" href="#">Web Design</a>
-				      </li>
-				      <li><a class="icon icon-data" href="#">Web Development</a></li>
-				      <li><a class="icon icon-data" href="#">Illustrations</a></li>
-				    </ul>
-				</li>
-				<li class="has-drop">
-					<a class="icon icon-location" href="#">Servicios Periciales <i class="icon ion-ios-arrow-forward" /></i></a>
-					<ul class="drop">
-				      <li>
-				      	<a href="#">Web Design</a>
-				      </li>
-				      <li><a href="#">Web Development</a></li>
-				      <li><a href="#">Illustrations</a></li>
-				    </ul>
-				</li>
-				<li><a class="icon icon-photo" href="#">Administración de Testigos</a></li>
-				<li><a class="icon icon-location" href="#">Entrevista Policial del grupo de investigación</a></li>
-				<li><a class="icon icon-photo" href="#">Administración de Material Probatorio</a></li>
-				<li><a class="icon icon-wallet" href="#">Diligencias Periciales</a></li>
-			@*}*@
-				<!-- <li class="has-drop">
-					<a class="icon icon-user" href="#">Denuncias <i class="icon ion-ios-arrow-forward" /></i></a>
-					<ul class="drop">
-				    	<li><a href="#">Denuncia Ciudadana</a></li>
-				    	<li><a href="#">Consulta de Ministerios Públicos</a></li>
-						<li><a href="#">Reporte de Personas desaparecidas</a></li>
-						<li><a href="#">Directorio de Números de Emergencia</a></li>
-						<li><a href="#">Reporte de Robo de Vehículos</a></li>
-						<li><a href="#">Reporte de Extorsión</a></li>
-				    </ul>
-				</li> --> -->
-				
+            <li class="has-drop">
+                <a class="icon icon-world" href="#">Modulos <i class="icon ion-ios-arrow-forward"/></i></a>
+                <ul class="drop">
+                    <li><a href="/estado">Estados</a></li>
+                    <li><a href="/municipio">Municipios</a></li>
+                </ul>
+            </li>
+        </ul>
 
-		</ul>
-
-		<div class="evoLogo">
-			<a href="http://evomatik.com">
-				<img src="@routes.Assets.versioned("images/Logo.png")" alt="" style="max-width:200px;" />
-			</a>
-		</div>
-	</nav>
+        <div class="evoLogo">
+            <a href="http://evomatik.com">
+                <img src=@routes.Assets.versioned("images/Logo.png") alt="" style="max-width:200px;"/>
+            </a>
+        </div>
+    </nav>
 
 
-<div class="st-pusher">
-	<div class="st-content"><!-- this is the wrapper for the content -->
-		<div class="st-content-inner">
-<div class="navcontain">
+    <div class="st-pusher">
+        <div class="st-content"><!-- this is the wrapper for the content -->
+            <div class="st-content-inner">
+                <div class="navcontain">
 
-	<div class="navbar" id="nav" gumby-fixed="top">
-		<div class="row">
-			<div id="st-trigger-effects" class="one columns nav-icon-container">
-				<button class="nav-icon size-32" data-effect="st-effect-4" style="color:#fff;"><i class="ion-navicon size-32"></i></button class="nav-icon">
-			</div>
-			<div class="five columns text-left">
-				<h1 class="logo" style="margin-top:10px;">
-					<a href="/">
-						<img src="@routes.Assets.versioned("images/logo_iavd_main.png")" gumby-retina />
-						<!-- <img src="@routes.Assets.versioned("images/Logo_white.png")" gumby-retina /> -->
-					</a>
-				</h1>
-			</div>
+                    <div class="navbar" id="nav" gumby-fixed="top">
+                        <div class="row">
+                            <div id="st-trigger-effects" class="one columns nav-icon-container">
+                                <button class="nav-icon size-32" data-effect="st-effect-4" style="color:#fff;"><i
+                                        class="ion-navicon size-32"></i></button>
+                            </div>
+                            <div class="five columns text-left">
+                                <h1 class="logo" style="margin-top:10px;">
+                                    <a href="/">
+                                        <img src=@routes.Assets.versioned("images/logo_iavd_main.png") gumby-retina/>
+                                        <!-- <img src=@routes.Assets.versioned("images/Logo_white.png") gumby-retina /> -->
+                                    </a>
+                                </h1>
+                            </div>
 
 
-			<div class="six columns text-right">
-				<div class="profile">
-					<img src="@routes.Assets.versioned("images/user.png")" class="image circle"/>
-				 	<a href="#" class="profileTrigger"><i class="icon ion-gear-a"></i></a>
-				 	<div class="menu-profile">
-				 		<div id="arrow"></div>
-				 		<a href="">Mi Perfil <i id="firstIcon" class="icon ion-person"></i></a>
-				 		<a href="#">Configuración <i id="secondIcon" class="icon ion-gear-b"></i></a>
-				 		<a href="#">Ayuda <i id="thirdIcon" class="icon ion-help"></i></a>
-				 		
-				 	</div>
-				 </div>
-			</div>
-		</div>
-	</div>
+                            <div class="six columns text-right">
+                                <div class="profile">
+                                    <img src=@routes.Assets.versioned("images/user.png") class="image circle"/>
+                                    <a href="#" class="profileTrigger">@session.get("nameUser") &nbsp;<i
+                                            class="icon ion-gear-a"></i></a>
+
+                                    <div class="menu-profile">
+                                        <div id="arrow"></div>
+                                        <a href="#">Mi Perfil <i id="firstIcon" class="icon ion-person"></i></a>
+                                        <a href="#">Configuración <i id="secondIcon" class="icon ion-gear-b"></i></a>
+                                        <a href="#">Ayuda <i id="thirdIcon" class="icon ion-help"></i></a>
+                                        <a href="#">Salir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    @content
+
+
+                    <div class="twelve columns text-center">
+                        <p class="size-12">Instituto de Atención a Víctimas del Delito - Todos los derechos reservados
+                            <a href="http://evomatik.com">Evomatik Software</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
 
-	<div class="row">
+<!--
+Include gumby.js followed by UI modules followed by gumby.init.js
+Or concatenate and minify into a single file -->
+<script gumby-touch=@routes.Assets.versioned("js/libs") src=@routes.Assets.versioned("js/libs/gumby.min.js")></script>
+<script src=@routes.Assets.versioned("js/libs/ui/jquery.validation.js") type="text/javascript"></script>
+<!--
+Google's recommended deferred loading of JS
+gumby.min.js contains gumby.js, all UI modules and gumby.init.js
 
-			@index()
+Note: If you opt to use this method of defered loading,
+ensure that any javascript essential to the initial
+display of the page is included separately in a normal
+script tag.
 
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "js/libs/gumby.min.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script> -->
+<script src=@routes.Assets.versioned("js/sweetalert.min.js")></script>
+<script src=@routes.Assets.versioned("js/modernizr.custom.js")></script>
+<script src=@routes.Assets.versioned("js/plugins.js")></script>
+<script src=@routes.Assets.versioned("js/main.js")></script>
+<script src=@routes.Assets.versioned("js/classie.js")></script>
+<script src=@routes.Assets.versioned("js/sidebarEffects.js")></script>
+<script src=@routes.Assets.versioned("js/resetForm.js")></script>
+<script src=@routes.Assets.versioned("js/tabs-responsive.js")></script>
+<script src=@routes.Assets.versioned("js/modernizr.js")></script>
 
-		<div class="twelve columns text-center">
-			<p class="size-12">Instituto de Atención a Víctimas del Delito - Todos los derechos reservados
-				<a href="http://evomatik.com">Evomatik Software</a>
-			</p>
-		</div>
-	</div>
-	
-	</div>
-	</div>
-	</div>
-	</div>
+<script src=@routes.Assets.versioned("js/jquery.slimscroll.min.js")></script>
+<script src=@routes.Assets.versioned("javascripts/main/mainLayoutController.js")></script>
+<script src=@routes.Assets.versioned("js/jquery.cookie.js") type="text/javascript"></script>
+<script src=@routes.Assets.versioned("js/picker.js") type="text/javascript"></script>
+<script src=@routes.Assets.versioned("js/picker.date.js") type="text/javascript"></script>
+<script src=@routes.Assets.versioned("js/jquery.inputmask.js") type="text/javascript"></script>
+<script src=@routes.Assets.versioned("js/jquery.maskMoney.js") type="text/javascript"></script>
+<script src=@routes.Assets.versioned("js/jquery.inputmask.date.extensions.js") type="text/javascript"></script>
+<script src=@routes.Assets.versioned("js/jquery.tokeninput.js") type="text/javascript"></script>
 
-	<!--
-	Include gumby.js followed by UI modules followed by gumby.init.js
-	Or concatenate and minify into a single file -->
-	<script gumby-touch="@routes.Assets.versioned("js/libs")" src="@routes.Assets.versioned("js/libs/gumby.min.js")"></script>
-	<script src="@routes.Assets.versioned("js/libs/ui/jquery.validation.js")" type="text/javascript"></script>
-	<!--
-	Google's recommended deferred loading of JS
-	gumby.min.js contains gumby.js, all UI modules and gumby.init.js
-
-	Note: If you opt to use this method of defered loading,
-	ensure that any javascript essential to the initial
-	display of the page is included separately in a normal
-	script tag.
-
-	<script type="text/javascript">
-	function downloadJSAtOnload() {
-	var element = document.createElement("script");
-	element.src = "js/libs/gumby.min.js";
-	document.body.appendChild(element);
-	}
-	if (window.addEventListener)
-	window.addEventListener("load", downloadJSAtOnload, false);
-	else if (window.attachEvent)
-	window.attachEvent("onload", downloadJSAtOnload);
-	else window.onload = downloadJSAtOnload;
-	</script> -->
-	<script src="@routes.Assets.versioned("js/sweetalert.min.js")"></script>
-	<script src="@routes.Assets.versioned("js/modernizr.custom.js")"></script>
-	<script src="@routes.Assets.versioned("js/plugins.js")"></script>
-	<script src="@routes.Assets.versioned("js/main.js")"></script>
-	<script src="@routes.Assets.versioned("js/classie.js")"></script>
-	<script src="@routes.Assets.versioned("js/sidebarEffects.js")"></script>
-	<script src="@routes.Assets.versioned("js/resetForm.js")"></script>
-	<script src="@routes.Assets.versioned("js/tabs-responsive.js")"></script>
-	<script src="@routes.Assets.versioned("js/modernizr.js")"></script>
-	
-	<script src="@routes.Assets.versioned("js/jquery.slimscroll.min.js")"></script>
-	<script src="@routes.Assets.versioned("javascripts/main/mainLayoutController.js")"></script>
-	<script src="@routes.Assets.versioned("js/jquery.cookie.js")" type="text/javascript"></script>
-	<script src="@routes.Assets.versioned("js/picker.js")" type="text/javascript"></script>
-	<script src="@routes.Assets.versioned("js/picker.date.js")" type="text/javascript"></script>
-	<script src="@routes.Assets.versioned("js/jquery.inputmask.js")" type="text/javascript"></script>
-	<script src="@routes.Assets.versioned("js/jquery.maskMoney.js")" type="text/javascript"></script>
-	<script src="@routes.Assets.versioned("js/jquery.inputmask.date.extensions.js")" type="text/javascript"></script>
-	<script src="@routes.Assets.versioned("js/jquery.tokeninput.js")" type="text/javascript"></script>
-
-	<script>
+<script>
 	$(document).ready(function() {
 		$.extend( $.fn.dataTable.defaults, {
 			"lengthMenu": [ [5 ,10, 25, 50, -1], [5 ,10, 25, 50, "Todos"] ],
@@ -305,7 +245,7 @@
 	            "infoEmpty": "No hay registros disponibles",
 	            "emptyTable": "No hay registros disponibles",
 	            "search":       	"Buscar: ",
-	            "infoFiltered": "(Filtrado:  de _MAX_ total de registros)",
+	            "infoFiltered": "(Filtrado:  de _MAX_ total de registros),
 	            "paginate": {
 					"first":    	"Primero",
 					"previous": 	"Anterior",
@@ -339,7 +279,8 @@
 
     	$('.time').inputmask( 'h:s' );
 	});
-	</script>
 
-  </body>
+</script>
+
+</body>
 </html>

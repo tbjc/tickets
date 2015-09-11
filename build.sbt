@@ -1,4 +1,4 @@
-name := "prueba"
+name := "Tickets"
 
 version := "1.0"
 
@@ -8,7 +8,9 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-  evolutions
+  evolutions,
+  // example version, use the "which version..." tool to determine the correct one
+  "be.objectify" %% "deadbolt-java" % "2.4.0"
 )
 
 libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.18"

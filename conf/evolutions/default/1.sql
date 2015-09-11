@@ -3,29 +3,19 @@
 
 # --- !Ups
 
-create table departamento (
+create table usuario (
   id                        bigint auto_increment not null,
-  nombre                    varchar(255),
-  constraint pk_departamento primary key (id))
-;
-
-create table distrito (
-  id                        bigint auto_increment not null,
-  distrito                  varchar(255),
-  constraint pk_distrito primary key (id))
-;
-
-create table empleado (
-  id                        bigint auto_increment not null,
-  nombre                    varchar(255),
-  nom_usuario               varchar(255),
+  user_name                 varchar(255),
+  nombre_completo           varchar(255),
   password                  varchar(255),
-  departamento_id           bigint,
-  constraint pk_empleado primary key (id))
+  pregunta_secreta          varchar(255),
+  respuesta_secreta         varchar(255),
+  perfil                    varchar(255),
+  email                     varchar(255),
+  constraint uq_usuario_user_name unique (user_name),
+  constraint pk_usuario primary key (id))
 ;
 
-alter table empleado add constraint fk_empleado_departamento_1 foreign key (departamento_id) references departamento (id) on delete restrict on update restrict;
-create index ix_empleado_departamento_1 on empleado (departamento_id);
 
 
 
@@ -33,11 +23,7 @@ create index ix_empleado_departamento_1 on empleado (departamento_id);
 
 SET FOREIGN_KEY_CHECKS=0;
 
-drop table departamento;
-
-drop table distrito;
-
-drop table empleado;
+drop table usuario;
 
 SET FOREIGN_KEY_CHECKS=1;
 

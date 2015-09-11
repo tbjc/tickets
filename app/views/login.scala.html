@@ -1,10 +1,12 @@
 @(loginForm: Form[Application.Login])
+@import helper._
+@loginLayout("Iniciar sesión") {
 
 	<div class="row">
 		<div class="six centered columns text-center">
 			<h1 class="six centered columns logo" style="margin-top:20%;">
 				<a href="#">
-					<img src="@routes.Assets.versioned("images/Logo.png")">
+					<img src=@routes.Assets.versioned("images/Logo.png") gumby-retina />
 				</a>
 			</h1>
 		</div>
@@ -13,18 +15,20 @@
 		<div class="six centered columns text-center">
 			<div class="panel">
 				<h2>Iniciar sesión</h2>
-				
-				<form action="@routes.Application.entrar()" method="POST" class="text-left" id="loginForm">
+				<form action=@routes.Application.authenticate() method="POST" class="text-left" id="loginForm">
 				@*CSRF.formField*@
 					<div class="field">
-						<label for="usuario">Usuario: </label>
-					  <input class="input usuario" id="nombreUsuario" name="nombreUsuario" type="text" placeholder="Usuario" value="@loginForm("nombreUsuario").value" />
+						<label for="nombreUsuario">Usuario: </label>
+					  <input class="input usuario" id="nombreUsuario" name="nombreUsuario" type="text" placeholder="Usuario" value=@loginForm("nombreUsuario").value />
 					</div>
 					<div class="field">
-						<label for="pasword">Contraseña: </label>
-					  <input class="input contrasenia" id="password" name="password" type="password" placeholder="Contraseña" value="@loginForm("password").value" />
+						<label for="password">Contraseña: </label>
+					  <input class="input contrasenia" id="password" name="password" type="password" placeholder="Contraseña" value=@loginForm("password").value />
 					</div>
-					
+					<!--<div class="field">
+                      <label for="codigoSeguridad">Código de seguridad:</label>
+                      <input class="contrasenia input" name="codigoSeguridad" id="codigoSeguridad" type="password" placeholder="Código de seguridad" value=@loginForm("codigoSeguridad").value />
+                    </div>-->
 					@if(loginForm.hasGlobalErrors){
 			             @for(validationError <- loginForm.globalErrors){  
 			                <span class="row danger label errorLabel"><i class="icon ion-alert-circled"></i> @validationError.message</span>
@@ -84,3 +88,4 @@
 		  });
 	});
 	</script>
+}
