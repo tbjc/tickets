@@ -1,11 +1,18 @@
 package controllers;
 
+import models.Rol;
 import models.Usuario;
 import play.api.data.Form;
+//import play.api.libs.json.Json;
+import play.api.libs.json.Writes;
+import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
 import play.twirl.api.Html;
+import scala.util.parsing.json.JSON;
 import views.html.login;
+
+import java.util.ArrayList;
 
 import static play.data.Form.form;
 
@@ -16,12 +23,8 @@ public class Application extends Controller {
     public static class Login {
         public String nombreUsuario;
         public String password;
-        //public String codigoSeguridad;
 
         public String validate() {
-            /*if (Usuario.authenticate(nombreUsuario, password, codigoSeguridad) == null) {
-                return "Usuario o contraseña inválida";
-            }*/
             if (Usuario.authenticate(nombreUsuario, password) == null) {
                 return "Usuario o contraseña inválida";
             }
@@ -30,7 +33,6 @@ public class Application extends Controller {
     }
 
     public static Result authenticate() {
-        //return redirect("/main") ;
         play.Logger.debug("Entro a Authenticate....");
         play.data.Form<Login> loginForm;
         loginForm = form(Login.class).bindFromRequest();
@@ -39,14 +41,13 @@ public class Application extends Controller {
             return badRequest(login.render(loginForm));
         } else {
             session("nameUser", loginForm.get().nombreUsuario);
-            //return redirect(routes.Usuarios.inicio());
             return redirect("/main");
-            //return redirect();
         }
     }
 
     public static Result index() {
         Usuario.crearAdmin();
+
         return ok(views.html.login.render(form(Login.class)));
     }
 
@@ -70,5 +71,29 @@ public class Application extends Controller {
         flash("success", "Sesión cerrada satisfactoriamente");
         return redirect(routes.Application.login());
     }
+
+    public static Result showUser(Long id) {
+        Usuario user = Usuario.findById(id);
+        if (user == null) {
+            return notFound();
+        } else {
+            return ok(user.toJSON());
+        }
+    }
+
+    public static Result showRol(String id) {
+        Rol user = Rol.findRolByName(id);
+        if (user == null) {
+            return notFound();
+        } else {
+            return ok(user.toJSON());
+        }
+    }
+
+    public static Result getUsersByRol(String rol) {
+        Rol rol_1 = Rol.findRolByName(rol);
+        return ok(rol_1.findUsers_JSON());
+    }
+
 
 }

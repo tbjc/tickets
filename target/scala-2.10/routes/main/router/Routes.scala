@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Proyectos/play_framework/tickets/conf/routes
-// @DATE:Thu Sep 10 19:21:52 CDT 2015
+// @SOURCE:C:/Proyectos/Play_Framework/Proyectos/tickets/conf/routes
+// @DATE:Tue Sep 15 11:18:25 CDT 2015
 
 package router
 
@@ -43,6 +43,9 @@ class Routes extends GeneratedRouter {
     ("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """autenticate""", """controllers.Application.authenticate()"""),
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""", """controllers.Application.login()"""),
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
+    ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """show/$id<[^/]+>""", """controllers.Application.showUser(id:Long)"""),
+    ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """showrol/$id<[^/]+>""", """controllers.Application.showRol(id:String)"""),
+    ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """usersbyrol/$id<[^/]+>""", """controllers.Application.getUsersByRol(id:String)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -135,6 +138,57 @@ class Routes extends GeneratedRouter {
     )
   )
 
+  // @LINE:15
+  private[this] lazy val controllers_Application_showUser5_route: Route.ParamsExtractor = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("show/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_Application_showUser5_invoker = createInvoker(
+    controllers.Application.showUser(fakeValue[Long]),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "showUser",
+      Seq(classOf[Long]),
+      "GET",
+      """rutas para controlador usuarios""",
+      this.prefix + """show/$id<[^/]+>"""
+    )
+  )
+
+  // @LINE:16
+  private[this] lazy val controllers_Application_showRol6_route: Route.ParamsExtractor = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("showrol/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_Application_showRol6_invoker = createInvoker(
+    controllers.Application.showRol(fakeValue[String]),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "showRol",
+      Seq(classOf[String]),
+      "GET",
+      """""",
+      this.prefix + """showrol/$id<[^/]+>"""
+    )
+  )
+
+  // @LINE:17
+  private[this] lazy val controllers_Application_getUsersByRol7_route: Route.ParamsExtractor = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("usersbyrol/"), DynamicPart("id", """[^/]+""",true)))
+  )
+  private[this] lazy val controllers_Application_getUsersByRol7_invoker = createInvoker(
+    controllers.Application.getUsersByRol(fakeValue[String]),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "getUsersByRol",
+      Seq(classOf[String]),
+      "GET",
+      """""",
+      this.prefix + """usersbyrol/$id<[^/]+>"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -166,6 +220,24 @@ class Routes extends GeneratedRouter {
     case controllers_Assets_versioned4_route(params) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
         controllers_Assets_versioned4_invoker.call(controllers.Assets.versioned(path, file))
+      }
+  
+    // @LINE:15
+    case controllers_Application_showUser5_route(params) =>
+      call(params.fromPath[Long]("id", None)) { (id) =>
+        controllers_Application_showUser5_invoker.call(controllers.Application.showUser(id))
+      }
+  
+    // @LINE:16
+    case controllers_Application_showRol6_route(params) =>
+      call(params.fromPath[String]("id", None)) { (id) =>
+        controllers_Application_showRol6_invoker.call(controllers.Application.showRol(id))
+      }
+  
+    // @LINE:17
+    case controllers_Application_getUsersByRol7_route(params) =>
+      call(params.fromPath[String]("id", None)) { (id) =>
+        controllers_Application_getUsersByRol7_invoker.call(controllers.Application.getUsersByRol(id))
       }
   }
 }

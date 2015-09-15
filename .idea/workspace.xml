@@ -1,742 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e97713ef-55d1-4580-93a5-6a254a47f257" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Usuario.java" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\controllers\Departamentos.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\controllers\Distritos.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\controllers\Empleados.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\models\Departamento.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\models\Distrito.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\models\Empleado.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\departamento\_form.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\departamento\form.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\departamento\index.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\distritos\_form.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\distritos\form.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\distritos\index.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\empleados\_form.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\empleados\form.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\app\views\empleados\index.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$0b441af3f7f656951c2a$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$0b441af3f7f656951c2a$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$0b441af3f7f656951c2a.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$0b441af3f7f656951c2a.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$188da1e7b4b782b40c7d$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$188da1e7b4b782b40c7d.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$188da1e7b4b782b40c7d.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$2d0d991f7ecf0d383ae5$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$2d0d991f7ecf0d383ae5.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$2d0d991f7ecf0d383ae5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$5310e466011f0376fb96$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$5310e466011f0376fb96.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$5310e466011f0376fb96.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$7ddf35521edbe589a3d8$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$7ddf35521edbe589a3d8.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$7ddf35521edbe589a3d8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$940770b4dfa49045f712$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$940770b4dfa49045f712.cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\project\project\target\config-classes\$940770b4dfa49045f712.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\prueba\prueba$sources_javadoc_2.10\1.0\resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\prueba\prueba$sources_javadoc_2.10\1.0\resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\prueba\prueba_2.10\1.0\resolved.xml.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\prueba\prueba_2.10\1.0\resolved.xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba$sources_javadoc_2.10-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-compile-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-compile.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-docs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-optional.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-provided.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-runtime-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-runtime.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-scala-tool.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-test-internal.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\resolution-cache\reports\prueba-prueba_2.10-test.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\Departamentos.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\Distritos.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\Empleados.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\ReverseDepartamentos.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\ReverseDistritos.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\ReverseEmpleados.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\javascript\ReverseDepartamentos.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\javascript\ReverseDistritos.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\controllers\javascript\ReverseEmpleados.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\models\Departamento.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\models\Distrito.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\models\Empleado.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_entrar3_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_index1_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_inicio0_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Assets_versioned2_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Departamentos_create15_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Departamentos_delete21_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Departamentos_index10_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Departamentos_list11_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Departamentos_show12_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Departamentos_update18_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Distritos_create13_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Distritos_delete19_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Distritos_index4_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Distritos_list5_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Distritos_show6_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Distritos_update16_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Empleados_create14_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Empleados_delete20_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Empleados_index7_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Empleados_list8_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Empleados_show9_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$router$Routes$$controllers_Empleados_update17_invoker$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$10$$anonfun$apply$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$11$$anonfun$apply$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$12$$anonfun$apply$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$13$$anonfun$apply$13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$14$$anonfun$apply$14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$15$$anonfun$apply$15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$16$$anonfun$apply$16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$17$$anonfun$apply$17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$18$$anonfun$apply$18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$19$$anonfun$apply$19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$20$$anonfun$apply$20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$21$$anonfun$apply$21.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$21.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$22$$anonfun$apply$22.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$22.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$6$$anonfun$apply$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$7$$anonfun$apply$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$8$$anonfun$apply$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$9$$anonfun$apply$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\_form$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\_form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\_form_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\_form_Scope0$_form$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\_form_Scope0$_form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\_form_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\form$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\form_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\form_Scope0$form$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\form_Scope0$form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\form_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\index$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\index.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\index_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\index_Scope0$index$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\index_Scope0$index.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\departamento\index_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\_form$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\_form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\_form_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\_form_Scope0$_form$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\_form_Scope0$_form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\_form_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\form$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\form_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\form_Scope0$form$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\form_Scope0$form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\form_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\index$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\index.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\index_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\index_Scope0$index$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\index_Scope0$index.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\distritos\index_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\_form$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\_form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\_form_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\_form_Scope0$_form$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\_form_Scope0$_form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\_form_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\form$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\form_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\form_Scope0$form$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\form_Scope0$form.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\form_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\index$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\index.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\index_Scope0$.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\index_Scope0$index$$anonfun$f$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\index_Scope0$index.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\classes\views\html\empleados\index_Scope0.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\routes\routes.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\departamento\_form.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\departamento\form.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\departamento\index.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\distritos\_form.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\distritos\form.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\distritos\index.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\empleados\_form.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\empleados\form.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\main\views\html\empleados\index.template.scala" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\scala-2.10\twirl\twirl.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\$global\playCompileEverything\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\$global\playReloaderClasspath\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\$global\updateClassifiers\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\discoveredSbtPlugins\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\exportedProducts\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\managedResources\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\managedSources\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\manipulateBytecode\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\playEnhancerRewriteAccessors\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\products\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\resources\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\compile\sources\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\runtime\exportedProducts\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\runtime\internalDependencyClasspath\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\runtime\products\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\test\externalDependencyClasspath\$global\streams\export" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\test\managedClasspath\$global\streams\export" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\test\playRoutes\$global\streams\op-cache" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\test\twirlCompileTemplates\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\test\unmanagedClasspath\$global\streams\export" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\test\unmanagedJars\$global\streams\export" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\streams\web-assets\assets\$global\streams\out" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\icons\entypo.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\icons\entypo.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\icons\entypo.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\ionicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\ionicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\ionicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\ionicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\linecons\Read Me.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\linecons\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\linecons\linecons.dev.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\linecons\linecons.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\linecons\linecons.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\linecons\linecons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\linecons\linecons.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\assets\fonts\linecons\lte-ie7.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\carga.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\classic.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\classic.date.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\dataTables.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\default.date.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\gridstack.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\gumby.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\icons.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\images\icons-black-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\images\icons-black.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\images\icons-white-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\images\icons-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\ionicons.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\jquery.fileupload-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\jquery.fileupload.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\loader.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\multi-select.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\picker.date.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\picker.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\radio-switch.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\responsive-tables.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\rev.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\style-tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\sweetalert.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\token-input.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\css\trumbowyg.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\icons\entypo.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\icons\entypo.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\icons\entypo.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\ionicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\ionicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\ionicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\ionicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\linecons\Read Me.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\linecons\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\linecons\linecons.dev.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\linecons\linecons.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\linecons\linecons.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\linecons\linecons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\linecons\linecons.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\fonts\linecons\lte-ie7.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\Logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\LogoVertical.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\Logo_white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\PGJEM.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\SEGOB.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\excel.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\excel.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\gumby_mainlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\gumby_mainlogo@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\img_silence_demo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\logo-veracruz.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\logo_iavd.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\logo_iavd_main copia.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\logo_iavd_main.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\palacio.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\pdf.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\pdf.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\pdf2.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\picture.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\picture.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\progressbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\user.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\word.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\images\word.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\departamento.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\distrito.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\empleado.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\hello.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\login.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\main.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\main.js.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\main\._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\main\mainLayoutController.coffee" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\main\mainLayoutController.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\javascripts\main\mainLayoutController.js.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\classie.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dataTables.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\angular-cookies.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\angular-datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\angular-datatables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\bootstrap\angular-datatables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\bootstrap\angular-datatables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\bootstrap\datatables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\bootstrap\datatables.bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\colreorder\angular-datatables.colreorder.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\colreorder\angular-datatables.colreorder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\columnfilter\angular-datatables.columnfilter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\columnfilter\angular-datatables.columnfilter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\colvis\angular-datatables.colvis.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\colvis\angular-datatables.colvis.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\fixedcolumns\angular-datatables.fixedcolumns.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\fixedcolumns\angular-datatables.fixedcolumns.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\fixedheader\angular-datatables.fixedheader.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\fixedheader\angular-datatables.fixedheader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\scroller\angular-datatables.scroller.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\scroller\angular-datatables.scroller.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\tabletools\angular-datatables.tabletools.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\dist\plugins\tabletools\angular-datatables.tabletools.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\dependencies\require.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\gridstack.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\impugnacion.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery-2.0.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery-2.1.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery-dateFormat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.inputmask.date.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.inputmask.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.maskMoney.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.multi-select.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.simplePagination.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.tokeninput.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\jquery.ui.touch-punch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\js-templates\tmpl.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\gumby.init.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\gumby.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\gumby.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\jquery-1.10.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\jquery-1.10.1.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\jquery-2.0.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\jquery-2.0.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\jquery.mobile.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\modernizr-2.6.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\gumby.checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\gumby.fixed.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\gumby.navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\gumby.radiobtn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\gumby.retina.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\gumby.skiplink.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\gumby.tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\gumby.toggleswitch.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\libs\ui\jquery.validation.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\lodash.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\picker.date.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\picker.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\resetForm.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\sidebarEffects.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\sweetalert.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tabs-responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\langs\es_MX.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\langs\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\advlist\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\anchor\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\autolink\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\autoresize\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\autosave\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\bbcode\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\charmap\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\code\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\colorpicker\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\contextmenu\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\directionality\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-cool.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-cry.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-embarassed.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-frown.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-innocent.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-kiss.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-laughing.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-sealed.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-surprised.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-undecided.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-wink.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\img\smiley-yell.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\emoticons\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\example\dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\example\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\example_dependency\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\fullpage\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\fullscreen\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\hr\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\image\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\importcss\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\insertdatetime\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\layer\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\legacyoutput\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\link\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\lists\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\media\moxieplayer.swf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\media\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\nonbreaking\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\noneditable\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\pagebreak\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\paste\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\preview\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\print\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\save\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\searchreplace\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\spellchecker\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\tabfocus\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\table\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\template\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\textcolor\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\textpattern\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\visualblocks\css\visualblocks.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\visualblocks\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\visualchars\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\plugins\wordcount\plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\content.inline.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\content.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\fonts\tinymce-small.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\fonts\tinymce-small.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\fonts\tinymce-small.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\fonts\tinymce-small.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\fonts\tinymce.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\fonts\tinymce.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\fonts\tinymce.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\fonts\tinymce.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\img\anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\img\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\img\object.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\img\trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\skin.ie7.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\skins\lightgray\skin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\themes\modern\theme.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\tinymce\tinymce.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\da.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\de.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\es_ar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\he.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\id.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\it.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\ja.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\ko.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\ro.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\rs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\rs_latin.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\langs\zh_cn.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\trumbowyg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\attachement.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\barre.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\bold.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\center-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\formatting.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\fullscreen-exit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\gras.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\horizontal-rule.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\image.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\italic.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\justify-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\left-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\link.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\ordered-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\removeformat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\right-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\souligne.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\strikethrough.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\underline.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\unordered-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\video.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black-2x\view-html.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\attachement.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\barre.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\bold.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\center-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\formatting.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\fullscreen-exit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\gras.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\horizontal-rule.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\image.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\italic.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\justify-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\left-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\link.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\ordered-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\removeformat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\right-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\souligne.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\strikethrough.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\underline.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\unordered-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\video.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-black\view-html.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\attachement.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\barre.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\bold.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\center-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\formatting.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\fullscreen-exit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\gras.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\horizontal-rule.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\image.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\italic.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\justify-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\left-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\link.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\ordered-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\removeformat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\right-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\souligne.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\strikethrough.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\underline.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\unordered-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\video.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white-2x\view-html.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\attachement.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\barre.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\bold.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\center-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\formatting.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\fullscreen-exit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\gras.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\horizontal-rule.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\image.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\italic.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\justify-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\left-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\link.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\ordered-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\removeformat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\right-align.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\souligne.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\strikethrough.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\underline.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\unordered-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\video.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\images\icons-white\view-html.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\sass\mixins\_sprite-pos.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\trumbowyg\ui\sass\trumbowyg.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\underscore.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\js\utilerias.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\classes\main\META-INF\resources\webjars\prueba\1.0\stylesheets\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Proyectos\play_framework\tickets\target\web\public\main\javascripts\main\._.DS_Store" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/Application$Login.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/Application$Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/Application.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/ReverseApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/javascript/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/javascript/ReverseApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$documentation$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$documentation$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$$anonfun$routes$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/router/Routes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/login$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/login$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/loginLayout.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/loginLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/loginLayout_Scope0$loginLayout$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/loginLayout_Scope0$loginLayout$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/loginLayout_Scope0$loginLayout.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/loginLayout_Scope0$loginLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/loginLayout_Scope0.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/loginLayout_Scope0.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/login_Scope0$login$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/login_Scope0$login$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/login_Scope0$login$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/login_Scope0$login$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/login_Scope0$login.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/login_Scope0$login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout_Scope0$mainLayout$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout_Scope0$mainLayout$$anonfun$f$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout_Scope0$mainLayout.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout_Scope0$mainLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout_Scope0.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/views/html/mainLayout_Scope0.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" afterPath="$PROJECT_DIR$/target/streams/compile/playRoutes/$global/streams/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/web-assets/coffeescript/$global/streams/run/op-cache" afterPath="$PROJECT_DIR$/target/streams/web-assets/coffeescript/$global/streams/run/op-cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/twirlCompileTemplates/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/twirlCompileTemplates/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/routes$javascript.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/routes$javascript.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/routes.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/controllers/routes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/target/streams/web-assets/assets/$global/streams/sync-mappings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/web-assets/webExportedDirectory/$global/streams/sync-mappings" afterPath="$PROJECT_DIR$/target/streams/web-assets/webExportedDirectory/$global/streams/sync-mappings" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/evolutions/default/1.sql" afterPath="$PROJECT_DIR$/conf/evolutions/default/1.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/evolutions/default/1.sql" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/evolutions/default/1.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/routes/main/controllers/ReverseRoutes.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/routes/main/controllers/ReverseRoutes.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/routes/main/router/Routes.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/routes/main/router/Routes.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/routes/main/router/RoutesPrefix.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/routes/main/router/RoutesPrefix.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/application.conf" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/build.properties" afterPath="$PROJECT_DIR$/project/build.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-tickets-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/twirl/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/twirl/main/views/html/index.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/ivy-report.xsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/login.scala.html" afterPath="$PROJECT_DIR$/app/views/login.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/twirl/main/views/html/login.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/twirl/main/views/html/login.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/loginLayout.scala.html" afterPath="$PROJECT_DIR$/app/views/loginLayout.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/twirl/main/views/html/loginLayout.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/twirl/main/views/html/loginLayout.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mainLayout.scala.html" afterPath="$PROJECT_DIR$/app/views/mainLayout.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/twirl/main/views/html/mainLayout.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.10/twirl/main/views/html/mainLayout.template.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main/mainLayoutController.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/main/mainLayoutController.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/web/public/main/javascripts/main/mainLayoutController.coffee" afterPath="$PROJECT_DIR$/target/web/public/main/javascripts/main/mainLayoutController.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/playCommonClassloader/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.10" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerGenerateAccessors/$global/streams/play_instrumentation_2.10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.10" afterPath="$PROJECT_DIR$/target/streams/compile/playEnhancerRewriteAccessors/$global/streams/play_instrumentation_2.10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/tickets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/tickets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/tickets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/tickets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/routes/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.10/routes/main/controllers/routes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/routes" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
-    <ignored path="tickets.iws" />
+    <list default="true" id="df779ac2-aecf-4850-8671-cdc59714be51" name="Default" comment="" />
+    <ignored path="Tickets.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/project/boot/" />
-    <ignored path="$PROJECT_DIR$/project/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
-    <ignored path="$PROJECT_DIR$/target/resolution-cache/" />
-    <ignored path="$PROJECT_DIR$/target/scala-2.10/classes/" />
-    <ignored path="$PROJECT_DIR$/target/streams/" />
-    <ignored path="$PROJECT_DIR$/target/web/" />
-    <ignored path="$PROJECT_DIR$/target/scala-2.10/test-classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -750,7 +20,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="tickets" />
+    <favorites_list name="Tickets" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -758,7 +28,38 @@
         <entry file="file://$PROJECT_DIR$/app/models/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
+              <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc;n#getId#0;n#Usuario#0" expanded="false" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#1766#1781#0" expanded="true" />
+                <element signature="e#2558#2559#0" expanded="true" />
+                <element signature="e#2627#2628#0" expanded="true" />
+                <element signature="e#2906#2915#0" expanded="true" />
+                <element signature="e#3314#3323#0" expanded="true" />
+                <element signature="e#3628#3629#0" expanded="true" />
+                <element signature="e#3689#3690#0" expanded="true" />
+                <element signature="e#3721#3722#0" expanded="true" />
+                <element signature="e#3761#3762#0" expanded="true" />
+                <element signature="e#3875#3884#0" expanded="true" />
+                <element signature="e#4304#4305#0" expanded="true" />
+                <element signature="e#4359#4360#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/routes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -768,86 +69,48 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1730#1731#0" expanded="true" />
+                <element signature="e#1788#1789#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginLayout.scala.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/loginLayout.scala.html">
+      <file leaf-file-name="Rol.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/Rol.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="37.26923">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.scala.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/login.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.8461537">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/application.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61445785">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.9259257">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="0.6426117">
+              <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc;n#getId#0;n#Rol#0" expanded="false" />
+                <element signature="e#965#976#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
+                <element signature="e#1923#1924#0" expanded="true" />
+                <element signature="e#1959#1960#0" expanded="true" />
+                <element signature="e#1990#1991#0" expanded="true" />
+                <element signature="e#2030#2031#0" expanded="true" />
+                <element signature="e#2074#2075#0" expanded="true" />
+                <element signature="e#2125#2126#0" expanded="true" />
+                <element signature="e#2164#2165#0" expanded="true" />
+                <element signature="e#2220#2221#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -857,14 +120,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/login.scala.html" />
-        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/models/Rol.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/app/models/Usuario.java" />
-        <option value="$PROJECT_DIR$/conf/routes" />
-        <option value="$PROJECT_DIR$/conf/application.conf" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -876,6 +143,25 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -883,7 +169,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -899,57 +185,30 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
+              <option name="myItemId" value="Tickets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
+              <option name="myItemId" value="Tickets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tickets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
+              <option name="myItemId" value="Tickets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -963,7 +222,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
+              <option name="myItemId" value="Tickets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -981,7 +240,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
+              <option name="myItemId" value="Tickets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -999,7 +258,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
+              <option name="myItemId" value="Tickets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1017,7 +276,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tickets" />
+              <option name="myItemId" value="Tickets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1030,22 +289,18 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-        <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="FullScreen" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Proyectos\play_framework\tickets\conf" />
-      <recent name="C:\Proyectos\play_framework\tickets\app\views" />
-      <recent name="C:\Proyectos\play_framework\tickets\app\controllers" />
-      <recent name="C:\Proyectos\play_framework\tickets\app\models" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1096,7 +351,6 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -1166,6 +420,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SbtRunConfiguration" factoryName="SBT Task">
+      <setting name="tasks" value="" />
+      <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
@@ -1246,7 +506,31 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="sbtSupportSuggested" value="true" />
+    <option name="lastUpdateTimestamp" value="1442325492501" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Tickets" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -1257,10 +541,10 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e97713ef-55d1-4580-93a5-6a254a47f257" name="Default" comment="" />
-      <created>1441902028612</created>
+      <changelist id="df779ac2-aecf-4850-8671-cdc59714be51" name="Default" comment="" />
+      <created>1442243762043</created>
       <option name="number" value="Default" />
-      <updated>1441902028612</updated>
+      <updated>1442243762043</updated>
     </task>
     <servers />
   </component>
@@ -1270,15 +554,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19765739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31034482" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1289,6 +573,8 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1303,8 +589,22 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/models/Rol.java</url>
+          <line>30</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1312,57 +612,128 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/models/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.9259257">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getId#0;n#Usuario#0" expanded="false" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#1766#1781#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2906#2915#0" expanded="true" />
+            <element signature="e#3314#3323#0" expanded="true" />
+            <element signature="e#3628#3629#0" expanded="true" />
+            <element signature="e#3689#3690#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+            <element signature="e#3761#3762#0" expanded="true" />
+            <element signature="e#3875#3884#0" expanded="true" />
+            <element signature="e#4304#4305#0" expanded="true" />
+            <element signature="e#4359#4360#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Rol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="61" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getId#0;n#Rol#0" expanded="false" />
+            <element signature="e#965#976#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getId#0;n#Usuario#0" expanded="false" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#1766#1781#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2906#2915#0" expanded="true" />
+            <element signature="e#3314#3323#0" expanded="true" />
+            <element signature="e#3628#3629#0" expanded="true" />
+            <element signature="e#3689#3690#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+            <element signature="e#3761#3762#0" expanded="true" />
+            <element signature="e#3875#3884#0" expanded="true" />
+            <element signature="e#4304#4305#0" expanded="true" />
+            <element signature="e#4359#4360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.brackets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4020618">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/loginLayout.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="37.26923">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/login.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.8461537">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1371,26 +742,160 @@
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+    <entry file="file://$PROJECT_DIR$/app/models/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding />
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getId#0;n#Usuario#0" expanded="false" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#1766#1781#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2906#2915#0" expanded="true" />
+            <element signature="e#3314#3323#0" expanded="true" />
+            <element signature="e#3628#3629#0" expanded="true" />
+            <element signature="e#3689#3690#0" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+            <element signature="e#3761#3762#0" expanded="true" />
+            <element signature="e#3875#3884#0" expanded="true" />
+            <element signature="e#4304#4305#0" expanded="true" />
+            <element signature="e#4359#4360#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61445785">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Rol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6426117">
+          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getId#0;n#Rol#0" expanded="false" />
+            <element signature="e#965#976#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#1990#1991#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>root</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>SBT: aopalliance:aopalliance:1.0:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

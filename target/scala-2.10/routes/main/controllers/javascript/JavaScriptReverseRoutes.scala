@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Proyectos/play_framework/tickets/conf/routes
-// @DATE:Thu Sep 10 19:21:52 CDT 2015
+// @SOURCE:C:/Proyectos/Play_Framework/Proyectos/tickets/conf/routes
+// @DATE:Tue Sep 15 11:18:25 CDT 2015
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -43,12 +43,32 @@ package controllers.javascript {
     }
 
   
-    // @LINE:6
-    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.index",
+    // @LINE:7
+    def main: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.main",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + """"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "main"})
+        }
+      """
+    )
+  
+    // @LINE:15
+    def showUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.showUser",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "show/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+        }
+      """
+    )
+  
+    // @LINE:16
+    def showRol: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.showRol",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "showrol/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
         }
       """
     )
@@ -63,12 +83,22 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:7
-    def main: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.main",
+    // @LINE:6
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.index",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "main"})
+          return _wA({method:"GET", url:"""" + _prefix + """"})
+        }
+      """
+    )
+  
+    // @LINE:17
+    def getUsersByRol: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.getUsersByRol",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "usersbyrol/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
         }
       """
     )
