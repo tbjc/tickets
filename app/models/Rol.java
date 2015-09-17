@@ -16,8 +16,6 @@ import java.util.Map;
 @Entity
 
 public class Rol extends Model {
-
-    @JsonIgnore
     @Id
     public Long id;
 

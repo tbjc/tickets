@@ -1,6 +1,7 @@
 package models;
 
 import com.avaje.ebean.Model;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.JsonNode;
 import org.mindrot.jbcrypt.BCrypt;
 import play.libs.Json;
@@ -9,6 +10,7 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import play.api.Logger;
 /**
  * Project entity managed by Ebean
  */
@@ -19,6 +21,7 @@ public class Usuario extends Model {
 
     @Column(unique = true)
     private String userName;
+    @JsonIgnore
     private String password;
     private String nombre;
     private String a_paterno;
@@ -26,7 +29,10 @@ public class Usuario extends Model {
     private String email;
 
     @ManyToOne
-    public Rol rol;
+    private Rol rol;
+
+    @OneToOne
+    private Grupo grupo;
 
     //region gets y sets
     public Long getId() {
@@ -46,7 +52,8 @@ public class Usuario extends Model {
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        //this.password = password;
+        this.password = BCrypt.hashpw(password, BCrypt.gensalt());
     }
 
     public String getNombre() {
@@ -88,6 +95,14 @@ public class Usuario extends Model {
     public void setRol(Rol rol) {
         this.rol = rol;
     }
+
+    public Grupo getGrupo() {
+        return grupo;
+    }
+
+    public void setGrupo(Grupo grupo) {
+        this.grupo = grupo;
+    }
     //endregion
 
     public static final Finder<Long, Usuario> find = new Finder<Long, Usuario>(Long.class, Usuario.class);
@@ -95,23 +110,30 @@ public class Usuario extends Model {
 
     public static Usuario authenticate(String nameUser, String password) {
         Usuario user = Usuario.find.where().eq("userName", nameUser).findUnique();
+        System.out.println("[INFO] Usuario.Authenticate nameUser= "+nameUser+" - password= "+password);
         if (user != null) {
             if (BCrypt.checkpw(password, user.getPassword())) {
                 return user;
             }
+        }else{
+            System.out.println("[INFO] Usuario.Authenticate - user == null");
         }
         return null;
     }
 
     public static void crearAdmin() {
         Rol.setDefaultRol();
+        Grupo.setDefaultGroup();
         if (findByUserName("admin") == null) {
             Usuario u = new Usuario();
             u.setNombre("Nombre_admin");
             u.setUserName("admin");
             u.setPassword("admin");
             u.setRol(Rol.findRolByName("Administrador"));
+            u.setGrupo(Grupo.findGroupByName("Default"));
             u.save();
+        }else{
+            System.out.println("[INFO] Admin not null");
         }
     }
 
@@ -173,7 +195,29 @@ public class Usuario extends Model {
         }
     }
 
+    public static ArrayList<Usuario> findUsersByGroup(Grupo grupo) {
+        ArrayList<Usuario> users = new ArrayList<Usuario>();
+        if ( grupo!=null){
+            List<Usuario> us = find.where().eq("grupo_id", grupo.getId()).findList();
+
+            if (us != null && us.size() > 0) {
+                users = new ArrayList<Usuario>(us);
+                return users;
+            } else {
+                return users;
+            }
+        }else{
+            return users;
+        }
+    }
+
     public static JsonNode findUsersByRol_JSON(Rol rol) {
         return Json.toJson(findUsersByRol(rol));
     }
+
+    public static JsonNode findUsersByGroup_JSON(Grupo grupo) {
+        return Json.toJson(findUsersByGroup(grupo));
+    }
+
+
 }
