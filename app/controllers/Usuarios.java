@@ -24,11 +24,20 @@ public class Usuarios extends Controller {
     }
 
     public static Result show(Long id) {
-        return ok(Usuario.findById(id).toJSON());
+        Usuario usuario= Usuario.findById(id);
+        if (usuario!=null){
+            return ok(usuario.toJSON());
+        }else{
+            return notFound("Usuario no encontrado");
+        }
     }
 
-    public static Result update() {
+    public static Result update(Long id) {
         return ok("Usuarios.update");
+    }
+
+    public static Result delete(Long id){
+        return ok("Usuarios.delete");
     }
 
     public static Result listByGroupID(Long id) {

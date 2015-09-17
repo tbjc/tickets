@@ -11,7 +11,31 @@ GET     /login                      controllers.Application.login()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
-#rutas para controlador usuarios
-GET     /show/:id                      controllers.Application.showUser(id: Long)
-GET     /showrol/:id                      controllers.Application.showRol(id: String)
-GET     /usersbyrol/:id                      controllers.Application.getUsersByRol(id: String)
+#rutas 'Usuarios'
+GET     /usuario                            controllers.Usuarios.index()
+GET     /usuario/index                      controllers.Usuarios.index()
+POST    /usuario/create                     controllers.Usuarios.create()
+GET     /usuario/show/:id                   controllers.Usuarios.show(id: Long)
+PUT     /usuario/update/:id                 controllers.Usuarios.update(id: Long)
+DELETE  /usuario/delete/:id                 controllers.Usuarios.delete(id: Long)
+GET     /usuario/listByGroupID/:id          controllers.Usuarios.listByGroupID(id:Long)
+GET     /usuario/listByRolName/:name        controllers.Usuarios.listByRolName(name: String)
+
+#rutas 'grupos'
+GET     /grupo                              controllers.Grupos.index()
+GET     /grupo/index                        controllers.Grupos.index()
+POST    /grupo/create                       controllers.Grupos.create()
+GET     /grupo/show/:id                     controllers.Grupos.show(id: Long)
+PUT     /grupo/update/:id                   controllers.Grupos.update(id: Long)
+DELETE  /grupo/delete                       controllers.Grupos.delete(id: Long)
+GET     /grupo/list                         controllers.Grupos.list()
+GET     /grupo/userListByGroupId/:id        controllers.Grupos.userListByGroupId(id:Long)
+
+#rutas 'roles'
+GET     /rol                                controllers.Roles.index()
+GET     /rol/index                          controllers.Roles.index()
+#POST    /rol/create                         controllers.Roles.create()
+GET     /rol/show/:id                       controllers.Roles.show(id: Long)
+#PUT     /rol/update/:id                     controllers.Roles.update(id: Long)
+#DELETE  /rol/delete                         controllers.Roles.delete(id: Long)
+GET     /rol/list                           controllers.Roles.list()

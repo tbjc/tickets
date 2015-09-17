@@ -53,6 +53,7 @@ public class Grupo extends Model{
     public static void setDefaultGroup() {
         HashMap<String, String> grupos = new HashMap<String, String>();
         grupos.put("Default", "Grupo por defecto");
+        grupos.put("Default_otro", "otro Grupo por defecto");
 
         for (Map.Entry<String, String> entry : grupos.entrySet()) {
             String key = entry.getKey();
@@ -84,6 +85,10 @@ public class Grupo extends Model{
             } else {
                 return grupos;
             }
+    }
+
+    public static JsonNode getAllGroups_JSON(){
+        return Json.toJson(getAllGroups());
     }
 
     public JsonNode toJSON() {

@@ -1,6 +1,7 @@
 package controllers;
 
 import models.Grupo;
+import models.Usuario;
 import play.mvc.Controller;
 import play.mvc.Result;
 
@@ -25,17 +26,21 @@ public class Grupos extends Controller {
         }
     }
 
-    public static Result update(){
+    public static Result update(Long id){
         return ok("Grupos.update");
     }
 
+    public static Result delete(Long id){
+        return ok("Grupos.delete");
+    }
+
     public static Result list(){
-        return ok("Grupos.list");
+        return ok(Grupo.getAllGroups_JSON());
     }
 
     public static Result userListByGroupId(Long id){
-
-        return ok("Grupos.userListByGroupId");
+        Grupo grupo=Grupo.findById(id);
+        return ok(Usuario.findUsersByGroup_JSON(grupo));
     }
 
 }

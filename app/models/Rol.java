@@ -8,6 +8,7 @@ import play.libs.Json;
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -72,6 +73,22 @@ public class Rol extends Model {
 
     public static Rol findRolByID(Long id){
         return find.byId(id);
+    }
+
+    public static ArrayList<Rol> getAllGroups() {
+        ArrayList<Rol> roles = new ArrayList<Rol>();
+
+        List<Rol> us = find.all();
+        if (us != null && us.size() > 0) {
+            roles = new ArrayList<Rol>(us);
+            return roles;
+        } else {
+            return roles;
+        }
+    }
+
+    public static JsonNode getAllGroups_JSON(){
+        return Json.toJson(getAllGroups());
     }
 
     public JsonNode toJSON(){

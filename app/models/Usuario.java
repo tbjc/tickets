@@ -31,7 +31,7 @@ public class Usuario extends Model {
     @ManyToOne
     private Rol rol;
 
-    @OneToOne
+    @ManyToOne
     private Grupo grupo;
 
     //region gets y sets

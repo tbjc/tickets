@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Proyectos/Play_Framework/Proyectos/tickets/conf/routes
-// @DATE:Tue Sep 15 11:18:25 CDT 2015
+// @DATE:Thu Sep 17 11:46:59 CDT 2015
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -35,6 +35,90 @@ package controllers.javascript {
   
   }
 
+  // @LINE:25
+  class ReverseGrupos(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:30
+    def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Grupos.delete",
+      """
+        function(id) {
+          return _wA({method:"DELETE", url:"""" + _prefix + { _defaultPrefix } + """" + "grupo/delete" + _qS([(""" + implicitly[QueryStringBindable[Long]].javascriptUnbind + """)("id", id)])})
+        }
+      """
+    )
+  
+    // @LINE:28
+    def show: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Grupos.show",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "grupo/show/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+        }
+      """
+    )
+  
+    // @LINE:32
+    def userListByGroupId: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Grupos.userListByGroupId",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "grupo/userListByGroupId/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+        }
+      """
+    )
+  
+    // @LINE:27
+    def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Grupos.create",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "grupo/create"})
+        }
+      """
+    )
+  
+    // @LINE:29
+    def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Grupos.update",
+      """
+        function(id) {
+          return _wA({method:"PUT", url:"""" + _prefix + { _defaultPrefix } + """" + "grupo/update/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+        }
+      """
+    )
+  
+    // @LINE:31
+    def list: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Grupos.list",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "grupo/list"})
+        }
+      """
+    )
+  
+    // @LINE:25
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Grupos.index",
+      """
+        function() {
+        
+          if (true) {
+            return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "grupo"})
+          }
+        
+        }
+      """
+    )
+  
+  }
+
   // @LINE:6
   class ReverseApplication(_prefix: => String) {
 
@@ -43,32 +127,12 @@ package controllers.javascript {
     }
 
   
-    // @LINE:7
-    def main: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.main",
+    // @LINE:6
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.index",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "main"})
-        }
-      """
-    )
-  
-    // @LINE:15
-    def showUser: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.showUser",
-      """
-        function(id) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "show/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
-        }
-      """
-    )
-  
-    // @LINE:16
-    def showRol: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.showRol",
-      """
-        function(id) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "showrol/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
+          return _wA({method:"GET", url:"""" + _prefix + """"})
         }
       """
     )
@@ -83,22 +147,12 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:6
-    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.index",
+    // @LINE:7
+    def main: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.main",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + """"})
-        }
-      """
-    )
-  
-    // @LINE:17
-    def getUsersByRol: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.getUsersByRol",
-      """
-        function(id) {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "usersbyrol/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("id", encodeURIComponent(id))})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "main"})
         }
       """
     )
@@ -109,6 +163,134 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:15
+  class ReverseUsuarios(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:20
+    def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Usuarios.delete",
+      """
+        function(id) {
+          return _wA({method:"DELETE", url:"""" + _prefix + { _defaultPrefix } + """" + "usuario/delete/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+        }
+      """
+    )
+  
+    // @LINE:18
+    def show: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Usuarios.show",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "usuario/show/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+        }
+      """
+    )
+  
+    // @LINE:17
+    def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Usuarios.create",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "usuario/create"})
+        }
+      """
+    )
+  
+    // @LINE:19
+    def update: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Usuarios.update",
+      """
+        function(id) {
+          return _wA({method:"PUT", url:"""" + _prefix + { _defaultPrefix } + """" + "usuario/update/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+        }
+      """
+    )
+  
+    // @LINE:21
+    def listByGroupID: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Usuarios.listByGroupID",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "usuario/listByGroupID/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
+        }
+      """
+    )
+  
+    // @LINE:22
+    def listByRolName: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Usuarios.listByRolName",
+      """
+        function(name) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "usuario/listByRolName/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("name", encodeURIComponent(name))})
+        }
+      """
+    )
+  
+    // @LINE:15
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Usuarios.index",
+      """
+        function() {
+        
+          if (true) {
+            return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "usuario"})
+          }
+        
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:35
+  class ReverseRoles(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:41
+    def list: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Roles.list",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "rol/list"})
+        }
+      """
+    )
+  
+    // @LINE:35
+    def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Roles.index",
+      """
+        function() {
+        
+          if (true) {
+            return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "rol"})
+          }
+        
+        }
+      """
+    )
+  
+    // @LINE:38
+    def show: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Roles.show",
+      """
+        function(id) {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "rol/show/" + (""" + implicitly[PathBindable[Long]].javascriptUnbind + """)("id", id)})
         }
       """
     )

@@ -30,7 +30,6 @@ create table usuario (
   rol_id                    bigint,
   grupo_id                  bigint,
   constraint uq_usuario_user_name unique (user_name),
-  constraint uq_usuario_grupo_id unique (grupo_id),
   constraint pk_usuario primary key (id))
 ;
 

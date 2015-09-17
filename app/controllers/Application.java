@@ -72,28 +72,4 @@ public class Application extends Controller {
         return redirect(routes.Application.login());
     }
 
-    public static Result showUser(Long id) {
-        Usuario user = Usuario.findById(id);
-        if (user == null) {
-            return notFound();
-        } else {
-            return ok(user.toJSON());
-        }
-    }
-
-    public static Result showRol(String id) {
-        Rol user = Rol.findRolByName(id);
-        if (user == null) {
-            return notFound();
-        } else {
-            return ok(user.toJSON());
-        }
-    }
-
-    public static Result getUsersByRol(String rol) {
-        Rol rol_1 = Rol.findRolByName(rol);
-        return ok(rol_1.findUsers_JSON());
-    }
-
-
 }
