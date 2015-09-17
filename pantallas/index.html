@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<html>
+<head>
+	<title>prueba</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		#loguin{
+			margin-top: 30px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+			padding: 20px;
+			text-align: center;
+		}
+
+		#loguin img{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+ 		<div class="row">
+ 			<div class="col-md-4 col-md-offset-4" id="loguin">
+ 				<img src="img/Logo.png">
+				<form>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Nombre de usuario</label>
+				    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Usuario">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Contraseña</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				  </div>
+				  <button type="submit" class="btn btn-success">Entrar</button>
+				</form>
+ 			</div>
+ 		</div>
+	</div>
+
+</body>
+</html>
