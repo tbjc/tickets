@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrapValidator.min.css">
 </head>
 <body>
 	<nav class="navbar base-verde">
@@ -63,12 +64,12 @@
 						  <div class="form-group">
 						    <label>Titulo del ticket</label>
 						    <!-- nombre que se le va a dar al ticket -->
-						    <input type="text" class="form-control input-sm" id="nomTicket" placeholder="Nombre">
+						    <input type="text" class="form-control input-sm" id="nomTicket" placeholder="Nombre" name="user-name">
 						  </div>
 						  <div class="form-group">
 						    <label>Descripcion</label>
 						    <!-- descripcion del ticket -->
-						    <textarea class="form-control input-sm" placeholder="descripcion" id="descTicket"></textarea>
+						    <textarea class="form-control input-sm" placeholder="descripcion" id="descTicket" name="password"></textarea>
 						  </div>
 						  <div cprimerlass="form-group">
 						    <label>Tipo del ticket</label>
@@ -163,19 +164,19 @@
 						<form class="form-reg">
 						  <div class="form-group">
 						    <label>Nombre(s)</label>
-						    <input type="text" class="form-control input-sm" id="" placeholder="Nombre">
+						    <input type="text" class="form-control input-sm" id="" placeholder="Nombre" name="user-name">
 						  </div>
 						  <div class="form-group">
 						    <label>Apellido Paterno</label>
-						    <input type="text" class="form-control input-sm" id="" placeholder="Apellido Paterno">
+						    <input type="text" class="form-control input-sm" id="" placeholder="Apellido Paterno" name="a_paterno">
 						  </div>
 						  <div cprimerlass="form-group">
 						    <label>Apellido Materno</label>
-						    <input type="text" class="form-control input-sm" id="" placeholder="Apellido materno">
+						    <input type="text" class="form-control input-sm" id="" placeholder="Apellido materno" name="a_materno">
 						  </div>
 						  <div class="form-group">
 						    <label>Correo Electronico</label>
-						    <input type="email" class="form-control input-sm" id="" placeholder="correo electronico">
+						    <input type="email" class="form-control input-sm" id="" placeholder="correo electronico" name="correo">
 						  </div>
 						  <div class="form-group">
 						    <label>Rol</label>
@@ -498,13 +499,20 @@
 	<!-- archivos de Javascript-->
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- librerias para que funcione el datatable -->
 	<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+	<!-- libreria para que el datatable se adapte a bootstrap -->
 	<script type="text/javascript" src="js/dataTables.bootstrap.min.js"></script>
+	<!-- funcion para que funcionen todos los datatables de la interfaz -->
 	<script type="text/javascript">
 		$(document).ready(function() {
 		    $('.table').DataTable();
 		} );
 	</script>
 	<script type="text/javascript" src="js/acciones.js"></script>
+	<!-- libreria para que funcione bootstrapValidator -->
+	<script type="text/javascript" src="js/bootstrapValidator.min.js"></script>
+	<!-- definicion de las reglas de validacion de los form de la interfaz -->
+	<script type="text/javascript" src="js/validaciones.js"></script>
 </body>
 </html>
